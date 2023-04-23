@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natur</title>
+    <!-- Bootstrap style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+    <style>
+      .carousel-item img {
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+      }
+      .icons {
+        width: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <h2>Natur</h2></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sign.html">Sign In</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Header -->
+
+    <!-- Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h6>Join Us</h6>
+          <a class="btn btn-primary" href="sign.html">Sign Up</a>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End of Slider -->
+
+    <!-- Content - What Will You See? -->
+    <section class="w-75 m-auto p-4">
+      <div class="m-3">
+        <h5 class="border-bottom">What Will You See?</h5>
+      </div>
+
+      <div class="row row-cols-lg-3 row-cols-1 g-4">
+        <div class="d-flex">
+          <div>
+            <img class="icons" src="images/bookmark.png" alt="" />
+          </div>
+          <div>
+            <h4>Travel Guides</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+              rerum et voluptatem possimus at consequatur impedit sapiente
+              accusamus mollitia nobis harum minus veritatis quia, explicabo
+              labore aliquam commodi delectus eius.
+            </p>
+            <a class="btn btn-primary" href="#">Read More</a>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="icons" src="images/location.png" alt="" />
+          </div>
+          <div>
+            <h4>Nature Walks</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+              rerum et voluptatem possimus at consequatur impedit sapiente
+              accusamus mollitia nobis harum minus veritatis quia, explicabo
+              labore aliquam commodi delectus eius.
+            </p>
+            <a class="btn btn-primary" href="#">Read More</a>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="icons" src="images/Chat.png" alt="" />
+          </div>
+          <div>
+            <h4>Nature Photography</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+              rerum et voluptatem possimus at consequatur impedit sapiente
+              accusamus mollitia nobis harum minus veritatis quia, explicabo
+              labore aliquam commodi delectus eius.
+            </p>
+            <a class="btn btn-primary" href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Content- What Will You See? -->
+
+    <!-- Content- Sustainable Travel -->
+    <section class="row w-75 m-auto p-2 gap-2">
+      <div class="col-lg-10 mb-4 bg-light rounded-3">
+        <h3 class="fw-bold">Sustainable Travel</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, maiores
+          tempora dolor voluptas iste dolorum. Iure illo voluptatem similique
+          alias debitis? Non, provident. Saepe harum tempora omnis consequatur
+          cumque accusamus.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#">Read More</a>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-2 gap-4">
+        <div class="col col-lg-5 g-4 bg-dark text-white rounded-3 p-3">
+          <h3>Sustainable Travel</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+            maiores tempora dolor voluptas iste dolorum. Iure illo voluptatem
+            similique alias debitis? Non, provident. Saepe harum tempora omnis
+            consequatur cumque accusamus.
+          </p>
+          <a class="btn btn-outline-secondary" href="#">Read More</a>
+        </div>
+        <div class="col col-lg-5 g-4 bg-light rounded-3">
+          <h3>Sustainable Travel</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+            maiores tempora dolor voluptas iste dolorum. Iure illo voluptatem
+            similique alias debitis? Non, provident. Saepe harum tempora omnis
+            consequatur cumque accusamus.
+          </p>
+          <a class="btn btn-outline-secondary" href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Content- Sustainable Travel -->
+
+    <footer class="my-5 pt-3 px-3 border-top">
+      <div class="d-flex justify-content-between">
+        <div>
+          <p>&copy; 2022 Company. Inc</p>
+        </div>
+        <div class="d-flex gap-3">
+          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="/">Features</a>
+          <a class="nav-link" href="/">Pricing</a>
+          <a class="nav-link" href="/">FAQs</a>
+          <a class="nav-link" href="/">About</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
