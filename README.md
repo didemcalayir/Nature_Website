@@ -1,8 +1,8 @@
-#Bootstrap Nature_Website
+# Bootstrap Nature_Website
 
 Nature Website made with Bootstrap
 
-##Technologies
+## Technologies
 
 ````
 HTML CSS BOOTSTRAP
